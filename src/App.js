@@ -26,8 +26,16 @@ function App() {
                   <span className="skill-name">Python</span>
                 </div>
                 <div className="skill-card">
-                  <i className="fas fa-code skill-icon"></i>
+                  <i className="fab fa-solid fa-c skill-icon"></i>
                   <span className="skill-name">C++</span>
+                </div>
+                <div className="skill-card">
+                  <i className="fab fa-java skill-icon"></i>
+                  <span className="skill-name">Java</span>
+                </div>
+                <div className="skill-card">
+                  <i className="fab fa-golang skill-icon"></i>
+                  <span className="skill-name">Go</span>
                 </div>
               </div>
             </div>

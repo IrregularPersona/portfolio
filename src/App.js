@@ -37,6 +37,10 @@ function App() {
                   <i className="fab fa-golang skill-icon"></i>
                   <span className="skill-name">Go</span>
                 </div>
+                <div className="skill-card">
+                  <i className="fas fa-microchip skill-icon"></i>
+                  <span className="skill-name">x86 Assembly</span>
+                </div>
               </div>
             </div>
 

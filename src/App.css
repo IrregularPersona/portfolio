@@ -98,8 +98,9 @@
 }
 
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.2rem;
   max-width: 900px;
   margin: 0 auto;
@@ -107,6 +108,7 @@
 }
 
 .skill-card {
+  flex: 0 0 120px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -297,12 +299,12 @@
   }
   
   .skills-grid {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 1rem;
     padding: 0 0.5rem;
   }
   
   .skill-card {
+    flex: 0 0 100px;
     padding: 1.2rem 0.8rem;
   }
   

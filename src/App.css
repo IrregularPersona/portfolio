@@ -118,6 +118,23 @@
   flex-grow: 1;
 }
 
+.project-description.emphasized {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.project-description strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.project-description .highlight {
+  color: #ffd700;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+  font-weight: 700;
+}
+
 .project-tech {
   display: flex;
   flex-wrap: wrap;

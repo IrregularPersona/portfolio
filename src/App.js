@@ -11,8 +11,8 @@ function App() {
         <div className="projects-grid">
           <div className="project-card">
             <h3 className="project-name">Glorp</h3>
-            <p className="project-description">
-              A cutting-edge Krunker performance client built with WebView2. Features raw input optimization, DXGI latency reduction, resource swapping, and custom script support. Over 17,000 downloads.
+            <p className="project-description emphasized">
+              A cutting-edge Krunker performance client built with WebView2. Features <strong>raw input optimization</strong>, <strong>DXGI latency reduction</strong>, <strong>resource swapping</strong>, and <strong>custom script support</strong>. <strong className="highlight">Over 17,000 downloads.</strong>
             </p>
             <div className="project-tech">
               <span className="tech-tag">Rust</span>

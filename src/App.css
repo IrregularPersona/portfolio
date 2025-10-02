@@ -61,6 +61,90 @@
   transform: scale(1.1);
 }
 
+/* Skills Section */
+.skills-section {
+  width: 100%;
+  max-width: 1200px;
+  animation: fadeIn 1.5s ease-in;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.skills-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.skills-category {
+  width: 100%;
+}
+
+.category-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.2rem;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.5px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+.skill-icon {
+  font-size: 48px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.skill-card:hover .skill-icon {
+  transform: scale(1.15);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.skill-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
 /* Projects Section */
 .projects-section {
   width: 100%;
@@ -202,6 +286,32 @@
   
   .social-link {
     font-size: 1rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .category-title {
+    font-size: 1.1rem;
+  }
+  
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    padding: 0 0.5rem;
+  }
+  
+  .skill-card {
+    padding: 1.2rem 0.8rem;
+  }
+  
+  .skill-icon {
+    font-size: 40px;
+  }
+  
+  .skill-name {
+    font-size: 0.85rem;
   }
   
   .projects-title {
